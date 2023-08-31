@@ -14,7 +14,7 @@ function App() {
 
   // start setting up transcription stuff
   const [finished, setFinished] = useState(false)
-  const [downloading, setDownloading] = useState(false)
+  const [_downloading, setDownloading] = useState(false)
 
   const isAudioAvailable = file || audioStream
 

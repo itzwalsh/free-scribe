@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react"
+import { useState, useEffect, useRef } from "react"
 export default function HomePage({ setFile, setAudioStream }: any) {
   const [recordingStatus, setRecordingStatus] = useState("inactive")
   const [audioChunks, setAudioChunks] = useState([])

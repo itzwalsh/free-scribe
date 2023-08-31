@@ -129,7 +129,7 @@ class GenerationTracker {
 
   chunkCallback(data: any) {
     this.chunks.push(data)
-    const [text, { chunks }] = this.pipeline.tokenizer._decode_asr(
+    const [_text, { chunks }] = this.pipeline.tokenizer._decode_asr(
       this.chunks,
       {
         time_precision: this.time_precision,
